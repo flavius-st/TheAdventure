@@ -23,6 +23,7 @@ public static class Program
         var gameLogic = new GameLogic();
         var gameRenderer = new GameRenderer(sdl, gameWindow, gameLogic);
         var inputLogic = new InputLogic(sdl, gameWindow, gameRenderer, gameLogic);
+// Add code
 
         gameLogic.LoadGameState();
 
